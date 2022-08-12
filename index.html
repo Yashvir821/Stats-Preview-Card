@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Stats preview card component</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;500&family=Lexend+Deca:wght@200;300;500&display=swap" rel="stylesheet">
+  <style>
+	  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;500&family=Lexend+Deca:wght@500&display=swap');
+	  BODY {
+				background-color: hsl(233, 47%, 7%);
+		  }
+	  *{
+		  padding:0;
+		  margin:0;
+		  box-sizing:border-box;
+	  }
+		.attribution { font-size: 20px; text-align: center; }
+		.attribution a { color: hsl(228, 45%, 44%); }
+		.img{
+				width: 77%;
+				height: 550px;
+				margin-top:10%;
+				margin-left:10%;
+				background-color:pink;
+
+			}
+		img{
+				color:hsl(277, 64%, 61%);
+				object-fit: cover;
+				opacity: 0.3;
+				filter: contrast(200%);
+			}
+		.insight{
+			color:hsl(277, 64%, 61%);
+		}
+		.image{
+			float:right;
+			width:50%;
+			background: hsl(277, 64%, 50%);
+			overflow: hidden;
+		}
+		.context{
+			float:right;
+			width:50%;
+			height:100%;
+			padding:20px;
+			background-color: hsl(244, 38%, 16%);
+		}
+		.a{
+				padding:0 11%;
+				margin-top: 10%;
+				margin-left: 1%;
+				color: hsl(0, 0%, 100%);
+				font-size: 43px;
+				font-family: 'Inter', sans-serif;
+				text-align: left;
+			}
+		.b{
+				color: hsla(0, 0%, 100%, 0.75);
+				padding:0 11%;
+				margin-top: 5%;
+				margin-left: 1%;
+				font-size: 24px;
+				text-align: left;
+				font-family: 'Lexend Deca', sans-serif;
+			}
+		.c{
+				font-size: 15px;
+				color:hsla(0, 0%, 100%, 0.6)
+
+			}
+		.d{
+				font-size: 15px;
+				color:hsla(0, 0%, 100%, 0.6)
+			}
+		.e{
+				font-size: 15px;
+				color:hsla(0, 0%, 100%, 0.6)
+			}
+		.tenk{	font-weight: 600;
+				font-size: 35px;
+				color: hsl(0, 0%, 100%);
+				font-family: 'Inter', sans-serif;
+			}
+		.numbers{
+					width: 70%;
+					margin-left: 13%;
+					margin-top: 15%;
+					display:flex;
+					justify-content:space-between;
+          line-height: 30px;
+          font-family: 'Lexend Deca', sans-serif;
+		}
+		h1.a{
+				font-weight: 700;
+			}
+		p.b{
+				font-weight: 300;
+				font-size: 20px;
+				line-height: 33px;
+			}
+		h3.tenk{
+					font-weight: 600;
+				}
+		h4.tenk{
+					font-weight: 600;
+				}
+		h5.tenk{
+					font-weight: 600;
+				}
+		h3.c{
+				font-weight: 300;
+			}
+		h4.d{
+				font-weight: 300;
+			}
+		h5.e{
+				font-weight: 300;
+
+			}
+  </style>
+</head>
+<body>
+	<div class="img">
+			<div class="image">
+				<img src="./images/image-header-desktop.jpg" height="548px" width="100%">
+			</div>
+			<div class="context">
+
+			<h1 class="a">Get <span class="insight">insights </span>that help your business grow.</h1>
+			<p class="b">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+			<div class="numbers">
+			<h3 class="c"><span class="tenk">10k+ </span>COMPANIES</h3>
+			<h4 class="d"><span class="tenk">314 </span> TEMPLATES</h4>
+			<h5 class="e"><span class="tenk">12m+ </span> QUERIES</h5>
+			</div>
+			</div>
+	</div>
+</body>
+</html>
